@@ -386,7 +386,7 @@ export default function HarryPotterQuiz() {
   const [customTime, setCustomTime] = useState("60")
 
   useEffect(() => {
-    if (!quizStarted || !showSettings || timeLimit === null) return
+    if (!quizStarted || timeLimit === null) return
 
     setTimeLeft(timeLimit)
 
@@ -404,7 +404,7 @@ export default function HarryPotterQuiz() {
     }, 1000)
 
     return () => clearInterval(interval)
-  }, [quizStarted, showSettings, currentQuestion, timeLimit, autoAdvance])
+  }, [quizStarted, currentQuestion, timeLimit, autoAdvance])
 
   const handleNextQuestion = () => {
     if (currentQuestion < questions.length - 1) {
