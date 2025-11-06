@@ -168,13 +168,6 @@ const questions: Question[] = [
     options: ["Нимбус 2000", "Комета", "Молния", "Чистомёт"],
     category: "Загадки",
   },
-  {
-    id: 49,
-    type: "Финал",
-    question: "Сдайте бланки",
-    options: ["Сдайте бланки", "Сдайте бланки", "Сдайте бланки", Сдайте бланки"],
-    category: "Цитаты",
-  },
 ]
 
 export default function HarryPotterQuiz() {
