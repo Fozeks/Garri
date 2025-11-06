@@ -230,7 +230,7 @@ export default function HarryPotterQuiz() {
               Магический Квиз по Гарри Поттеру
             </CardTitle>
             <CardDescription className="text-lg text-pretty">
-              50 заданий для командной игры! Загадки, ребусы, анаграммы и головоломки о волшебном мире.
+              20 заданий для командной игры! Загадки, ребусы, анаграммы и головоломки о волшебном мире.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
